@@ -1,0 +1,3 @@
+Compare,PMID,Parameter,Sentece,Title,Type,URL,Units,Value,id,Drugbank_id,Name
+,6144769,detection limit of drug,This corresponds to a detection limit of drug of 2 ng ml-1 urine.,Development of a sensitive radioreceptor assay for oxyphenonium in plasma and urine. ,NIL-Q100,[Article Link](https://pubmed.ncbi.nlm.nih.gov/6144769/),[ng] / [ml],2,128770,DB00219,Oxyphenonium
+,2565960,total biliary excretion,"Hepatic uptake rate was similar, but total biliary excretion (including metabolites) of the (-)-isomer was only 55% compared with the excretion of the (+)-isomer.",Unequal disposition of enantiomers of the organic cation oxyphenonium in the rat isolated perfused liver. ,fe-Q44,[Article Link](https://pubmed.ncbi.nlm.nih.gov/2565960/),%,55,236085,DB00219,Oxyphenonium

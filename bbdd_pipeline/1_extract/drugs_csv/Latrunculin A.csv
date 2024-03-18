@@ -1,0 +1,2 @@
+Compare,PMID,Parameter,Sentece,Title,Type,URL,Units,Value,id,Drugbank_id,Name
+,20043220,flow rate,"The supernatant was injected in an HPLC system comprising a Waters Symmetry NH(2) column, a mobile phase of acetonitrile/water (95/5, v/v), a flow rate of 1.0 mL/min, at 220 nm.",Development and validation of a rapid method for the detection of latrunculol A in plasma. ,NIL-Q100,[Article Link](https://pubmed.ncbi.nlm.nih.gov/20043220/),[ml] / [min],1.0,257867,DB02621,Latrunculin A

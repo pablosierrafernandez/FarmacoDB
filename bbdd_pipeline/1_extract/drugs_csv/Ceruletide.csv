@@ -1,0 +1,2 @@
+Compare,PMID,Parameter,Sentece,Title,Type,URL,Units,Value,id,Drugbank_id,Name
+,12604907,minimal inhibitory concentrations (MIC90),"The minimal inhibitory concentrations (MIC90) for organisms usually isolated from infected pancreatic necrosis vary between 0.05 and 8 mg/L, which is between nine and 1,500 times lower than the mean peak concentration found in necrotic pancreatic tissue.",Cefepime tissue penetration in experimental acute pancreatitis. ,IC50-Q10,[Article Link](https://pubmed.ncbi.nlm.nih.gov/12604907/),[mg] / [l],0.05 and 8,69156,DB00403,Ceruletide

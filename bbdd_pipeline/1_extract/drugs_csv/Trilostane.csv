@@ -1,0 +1,3 @@
+Compare,PMID,Parameter,Sentece,Title,Type,URL,Units,Value,id,Drugbank_id,Name
+,6770769,peak blood level,"In the rat, a peak blood level, equivalent to 2 microgram/ml of trilostane, was observed following a 25 mg/kg oral dose; excretion was mainly via the feces.",Disposition of trilostane in the rat and monkey. ,Cmax-Q32,[Article Link](https://pubmed.ncbi.nlm.nih.gov/6770769/),[μg] / [ml],2,40045,DB01108,Trilostane
+,6770769,peak plasma level,"In the monkey, the peak plasma level, equivalent to 15 microgram/ml, was observed 2 hr after a 20 mg/kg oral dose; elimination of radioactivity was predominantly in the urine.",Disposition of trilostane in the rat and monkey. ,Cmax-Q32,[Article Link](https://pubmed.ncbi.nlm.nih.gov/6770769/),[μg] / [ml],15,40046,DB01108,Trilostane

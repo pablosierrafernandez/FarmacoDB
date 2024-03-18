@@ -1,0 +1,3 @@
+Compare,PMID,Parameter,Sentece,Title,Type,URL,Units,Value,id,Drugbank_id,Name
+,581593,apparent elimination half-life,The mean apparent elimination half-life is 1.0-1.6 hr from all formulations.,Pharmacokinetics of benzquinamide in man. ,"t1/2,β-Q60",[Article Link](https://pubmed.ncbi.nlm.nih.gov/581593/),h,1.0-1.6,266931,DB00767,Benzquinamide
+,581593,bioavailable,"Benzquinamide is 33-39% bioavailable from the capsule and suppository formulations, relative to the intramuscular formulation.",Pharmacokinetics of benzquinamide in man. ,F-Q40,[Article Link](https://pubmed.ncbi.nlm.nih.gov/581593/),%,33-39,266932,DB00767,Benzquinamide

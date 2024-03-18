@@ -1,0 +1,3 @@
+Compare,PMID,Parameter,Sentece,Title,Type,URL,Units,Value,id,Drugbank_id,Name
+,2347958,Total body clearance,Total body clearance averaged 106 L/h and was independent of dose.,Pharmacokinetics of rimexolone after intra-articular administration. ,CL-Q22,[Article Link](https://pubmed.ncbi.nlm.nih.gov/2347958/),[l] / [h],106,42797,DB00896,Rimexolone
+,2347958,mean residence time,The mean residence time of rimexolone in the knee joint is very long and averaged 25 days.,Pharmacokinetics of rimexolone after intra-articular administration. ,MRT-Q53,[Article Link](https://pubmed.ncbi.nlm.nih.gov/2347958/),d,25,42798,DB00896,Rimexolone

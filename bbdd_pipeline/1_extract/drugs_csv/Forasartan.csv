@@ -1,0 +1,2 @@
+Compare,PMID,Parameter,Sentece,Title,Type,URL,Units,Value,id,Drugbank_id,Name
+,9156352,t1/2,The pharmacokinetics were linear over the dose range of 10-150 mg (t1/2 = 1.14-2.39 h).,"SC-52458, an orally active angiotensin II-receptor antagonist: inhibition of blood pressure response to angiotensin II challenges and pharmacokinetics in normal volunteers. ",t1/2-Q57,[Article Link](https://pubmed.ncbi.nlm.nih.gov/9156352/),h,1.14-2.39,40203,DB01342,Forasartan

@@ -1,0 +1,2 @@
+Compare,PMID,Parameter,Sentece,Title,Type,URL,Units,Value,id,Drugbank_id,Name
+,3896742,half-life,"Guanadrel has a rapid onset of action and a half-life of about 10 hours, thus dose titration can be achieved more rapidly than with guanethidine, and twice daily administration is appropriate.",Guanadrel. A review of its pharmacodynamic and pharmacokinetic properties and therapeutic use in hypertension. ,t1/2-Q57,[Article Link](https://pubmed.ncbi.nlm.nih.gov/3896742/),h,10,223353,DB01170,Guanethidine

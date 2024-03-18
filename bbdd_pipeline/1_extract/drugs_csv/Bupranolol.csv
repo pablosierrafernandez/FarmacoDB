@@ -1,0 +1,2 @@
+Compare,PMID,Parameter,Sentece,Title,Type,URL,Units,Value,id,Drugbank_id,Name
+,6124383,half-lives,Concentrations initially declined with similar half-lives (about 1.5 hr) in all three species.,"Metabolic fate of the beta-blocker 14C-bupranolol in humans, dogs, and rhesus monkeys. ",t1/2-Q57,[Article Link](https://pubmed.ncbi.nlm.nih.gov/6124383/),h,1.5,270289,DB08808,Bupranolol
