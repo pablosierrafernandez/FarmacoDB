@@ -207,7 +207,7 @@ Recuerde que podrá adaptarlo a sus necesidades.
 
 ## Estructura del Repositorio
 El repositorio está organizado de la siguiente manera:
-- `bbdd_pipeline/`: Contiene todos los *scripts* mencionados en los pasos anteriores XXX AÑADIR ENLACES.
+- `bbdd_pipeline/`: Contiene todos los *scripts* mencionados en los pasos anteriores.
 
 - `model_pipeline/`: Contiene los scripts utilizados para la creación del modelo predictivo, limpieza de datos, análisis etc.
 
@@ -215,7 +215,7 @@ El repositorio está organizado de la siguiente manera:
 Puede clonar este repositorio y utilizar las bases de datos creadas y los scripts proporcionados para crear su propia base de datos, o bien desarrollar sus propios modelos predictivos según sus necesidades siguiendo los *pipelines* propuestos.
 XXX
 ```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
+git clone https://github.com/pablosierrafernandez/FarmacoDB.git
 ```
 
 ## Agradecimientos
