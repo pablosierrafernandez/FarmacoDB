@@ -1,4 +1,5 @@
 # FarmacoDB: Automatización de Extracción y Análisis de Datos
+![](https://img.shields.io/badge/URV-Universitat_Rovira_i_Virgili-red?link=https%3A%2F%2Fwww.urv.cat)
 # Índice
 
 - [FarmacoDB: Automatización de Extracción y Análisis de Datos](#farmacodb-automatización-de-extracción-y-análisis-de-datos)
@@ -40,35 +41,93 @@ Para más detalles sobre la investigación, consulte la publicación completa en
 
 
 ## Objetivos
-1. Desarrollar una **base de datos** integral y estandarizada que aglutine datos farmacocinéticos esenciales como la Vida Media, Concentración Máxima, Tiempo hasta Cmax, entre otros, recopilados de diversas fuentes incluyendo [PKPDAI](https://www.pkpdai.com/ "PKPDAI") (*Pharmacokinetics Parameter Data Aggregator and Identifier*) ([Hernandez F et al., 2021](https://wellcomeopenresearch.org/articles/6-88/v1 "Hernandez F et al., 2021")), [DrugBank](https://go.drugbank.com/ "DrugBank") ([Wishart, 2006](https://academic.oup.com/nar/article/34/suppl_1/D668/1132926 "Wishart, 2006")). 
+1. Desarrollar una **base de datos** integral y estandarizada que aglutine datos farmacocinéticos esenciales como la Vida Media, Concentración Máxima, Tiempo hasta Cmax, entre otros, recopilados de diversas fuentes incluyendo [PKPDAI](https://www.pkpdai.com/ "PKPDAI") (*Pharmacokinetics Parameter Data Aggregator and Identifier*) ([Hernandez F et al., 2021](https://wellcomeopenresearch.org/articles/6-88/v1 "Hernandez F et al., 2021")), [DrugBank](https://go.drugbank.com/ "DrugBank") ([Wishart, 2006](https://academic.oup.com/nar/article/34/suppl_1/D668/1132926 "Wishart, 2006")).
 
-2. Proporcionar un **modelo para la predicción** de la Vida Media (*half-life*) utilizando descriptores moleculares. 
+<br>
+<p align="center">
+  <img width="500" src="media/5.png" alt="Esquema procedimental para la creación de la base de datos de descriptores moleculares y la base de datos de parámetros farmacocinéticos">
+</p>
+<p style="font-size: 2 px;" align="center">
+<b>Figura 1: </b> Esquema procedimental para la creación de la base de datos de descriptores moleculares y la base de datos de parámetros farmacocinéticos.
+</p>
+<br>
+
+2. Proporcionar un **modelo para la predicción** de la Vida Media (*half-life*) utilizando descriptores moleculares.
+
+<br>
+<p align="center">
+  <img width="500" src="media/6.png" alt="Esquema procedimental para la creación del modelo predictivo">
+</p>
+<p style="font-size: 2 px;" align="center">
+<b>Figura 2: </b> Esquema procedimental para la creación del modelo predictivo.
+</p>
+<br>
 
 La finaliad principal consiste en ofrecer un pipeline para poder **aplicar a la estimación de otros parámetros** farmacocinéticos contemplados en la base de datos, facilitando así una herramienta valiosa en el campo de la farmacocinética y la farmacología personalizada.
 
-## Metodología XXX SUBIR ESQUEMAS FOTOS
+## Metodología
 
 ### Bases de Datos (BBDD Farmacocinética + BBDD Descriptores)
 XXX
 Puede descargar directamente la base de datos final FarmacoDB o la base de datos de descriptores moleculares asociados.
 #### 1. Extracción de Datos PK de PKPDAI y DrugBank
 Se realizó un análisis exhaustivo de los datos de farmacocinética extrayendo información de las bases de datos *PKPDAI* y *DrugBank*. Se desarrolló una metodología eficiente en Python para extraer y almacenar los datos en una base de datos *SQLite* local.
+
+<br>
+<p align="center">
+  <img width="500" src="media/1.png" alt="Esquema del Proceso de Obtención y Almacenamiento de Datos Farmacocinéticos">
+</p>
+<p style="font-size: 2 px;" align="center">
+<b>Figura 3: </b> Esquema del Proceso de Obtención y Almacenamiento de Datos Farmacocinéticos.
+</p>
+<br>
+
 `bbdd_pipeline/1_extract/extract.ipynb`
 Obtendrá `DRUG_DB.db` necesario para la siguiente etapa (2).
 
 #### 2. Minería de Texto para Extracción de "Especie" y "Enfermedad"
 Se implementó un proceso de minería de texto para extraer la información de "especie" y "enfermedad" de los artículos científicos utilizando el modelo BERN2 ([Sung et al., 2022](https://academic.oup.com/bioinformatics/article/38/20/4837/6687126 "Sung et al., 2022")). Se automatizó la búsqueda en la base de datos SQLite local y se realizaron consultas a la *API* de *BERN2*.
+
+<br>
+<p align="center">
+  <img width="500" src="media/2_2.png" alt="Creación de la base de datos de parámetros farmacocinéticos">
+</p>
+<p style="font-size: 2 px;" align="center">
+<b>Figura 4: </b> Creación de la base de datos de parámetros farmacocinéticos.
+</p>
+<br>
+
 `bbdd_pipeline/2_diseases_species/diseases_species.ipynb`
 Obtendrá `DRUG_DB.db` necesario para la siguiente etapa (3).
 
 #### 3. Extracción de Descriptores Moleculares
 Se procedió a la extracción de descriptores moleculares utilizando la calculadora Mordred ([Moriwaki et al., 2018](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0258-y "Moriwaki et al., 2018")), que ofrece una solución robusta y eficiente para esta tarea. Se accedió a los SMILES de los compuestos a través del paquete pubchempy y se extrajeron los descriptores moleculares con Mordred.
+
+<br>
+<p align="center">
+  <img width="500" src="media/3.png" alt="Creación de la base de datos de descriptores moleculares">
+</p>
+<p style="font-size: 2 px;" align="center">
+<b>Figura 5: </b> Creación de la base de datos de descriptores moleculares.
+</p>
+<br>
+
 `bbdd_pipeline/3_descriptors/descriptors.ipynb`
 Obtendrá `DRUG_DB.db` necesario para la siguiente etapa (4).
 Obtendrá `BD_DESCRIPTORS.db` necesario para la etapa 8.
 
 #### 4, 5, 6, 7. Limpieza de Datos y Normalización
 Se realizó una normalización y limpieza profunda de los nombres de los parámetros farmacocinéticos en la base de datos de medicamentos para eliminar redundancias y asegurar coherencia. Se normalizaron unidades y valores para garantizar la coherencia y fiabilidad de los datos.
+
+<br>
+<p align="center">
+  <img width="500" src="media/4.png" alt="Esquema del Proceso de Normalización y Limpieza">
+</p>
+<p style="font-size: 2 px;" align="center">
+<b>Figura 6: </b> Esquema del Proceso de Normalización y Limpieza.
+</p>
+<br>
+
 `bbdd_pipeline/4_clean_normalization_metrics/clean_normalization_metrics.ipynb`
 Obtendrá `DRUG_DB.db` necesario para la siguiente etapa (5).
 `bbdd_pipeline/4_clean_normalization_metrics/5_groups/groups.ipynb`
