@@ -2,7 +2,6 @@
 ![](https://img.shields.io/badge/URV-Universitat_Rovira_i_Virgili-red?link=https%3A%2F%2Fwww.urv.cat)
 
 # Índice
-
 - [FarmacoDB: Automatización de Extracción y Análisis de Datos](#farmacodb-automatización-de-extracción-y-análisis-de-datos)
   - [Descripción](#descripción)
   - [Objetivos](#objetivos)
@@ -206,6 +205,7 @@ Si prefiere explorar todos los modelos probados y configuraciones puede usar el 
 Recuerde que podrá adaptarlo a sus necesidades.
 
 ## Estructura del Repositorio
+xxx
 El repositorio está organizado de la siguiente manera:
 - `bbdd_pipeline/`: Contiene todos los *scripts* mencionados en los pasos anteriores.
 
@@ -213,7 +213,6 @@ El repositorio está organizado de la siguiente manera:
 
 ## Instrucciones de Uso
 Puede clonar este repositorio y utilizar las bases de datos creadas y los scripts proporcionados para crear su propia base de datos, o bien desarrollar sus propios modelos predictivos según sus necesidades siguiendo los *pipelines* propuestos.
-XXX
 ```bash
 git clone https://github.com/pablosierrafernandez/FarmacoDB.git
 ```
@@ -237,8 +236,8 @@ En colaboracion con:
 
 | Logo                                                                               | Entidad       | Descripción                                    |
 |------------------------------------------------------------------------------------|----------------------------|------------------------------------------------------|
-| <img src="media/anaxomics-with-slogan.jpg" alt="Logo1" width="100">                     | <a href="https://www.anaxomics.com" target="_blank">Anaxomics SL</a>     | Empresa de biotecnología que utiliza inteligencia artificial para acelerar la investigación de fármacos.            |
-| <img src="media/urv-centrat-color.png" alt="Logo2" width="100">                     | <a href="https://www.urv.cat" target="_blank">Universitat Rovira i Virgili</a>     | Institución de educación superior ubicada en Tarragona, España, conocida por su excelencia académica e investigación multidisciplinaria.            |
+| <img src="media/anaxomics-with-slogan.jpg" alt="Logo1" width="100">                     | <a href="https://www.anaxomics.com">Anaxomics SL</a>     | Empresa de biotecnología que utiliza inteligencia artificial para acelerar la investigación de fármacos.            |
+| <img src="media/urv-centrat-color.png" alt="Logo2" width="100">                     | <a href="https://www.urv.cat">Universitat Rovira i Virgili</a>     | Institución de educación superior ubicada en Tarragona, España, conocida por su excelencia académica e investigación multidisciplinaria.            |
 
 ## Referencias
 1. Wang et al., 2009. [https://pubmed.ncbi.nlm.nih.gov/19345282/](https://pubmed.ncbi.nlm.nih.gov/19345282/)
