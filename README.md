@@ -234,9 +234,11 @@ Consulte el archivo `LICENSE` para más detalles.
 - [@Pedro M. Filipe](https://www.linkedin.com/in/pedromfilipe/?originalSubdomain=es): Tutor acompañante durante el proceso de desarrollo e investigación del proyecto.
 
 En colaboracion con:
-XXX
-icono urv
-icono Anaxomics
+
+| Logo                                                                               | Entidad       | Descripción                                    |
+|------------------------------------------------------------------------------------|----------------------------|------------------------------------------------------|
+| <img src="media/anaxomics-with-slogan.jpg" alt="Logo1" width="100">                     | <a href="https://www.anaxomics.com" target="_blank">Anaxomics SL</a>     | Empresa de biotecnología que utiliza inteligencia artificial para acelerar la investigación de fármacos.            |
+| <img src="media/urv-centrat-color.png" alt="Logo2" width="100">                     | <a href="https://www.urv.cat" target="_blank">Universitat Rovira i Virgili</a>     | Institución de educación superior ubicada en Tarragona, España, conocida por su excelencia académica e investigación multidisciplinaria.            |
 
 ## Referencias
 1. Wang et al., 2009. [https://pubmed.ncbi.nlm.nih.gov/19345282/](https://pubmed.ncbi.nlm.nih.gov/19345282/)
