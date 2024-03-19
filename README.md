@@ -1,5 +1,18 @@
 # FarmacoDB: Automatización de Extracción y Análisis de Datos
 ![](https://img.shields.io/badge/URV-Universitat_Rovira_i_Virgili-red?link=https%3A%2F%2Fwww.urv.cat)
+
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div data-mime-type="text/markdown" class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput">
+<p><a href="https://colab.research.google.com/github/pablosierrafernandez/FarmacoDB/blob/main/model_pipeline/models_pipeline.ipynb"><img data-canonical-src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" src="https://camo.githubusercontent.com/f5e0d0538a9c2972b5d413e0ace04cecd8efd828d133133933dfffec282a4e1b/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667"></a></p>
+
+</div>
+</div>
+</div>
+</div>
 # Índice
 
 - [FarmacoDB: Automatización de Extracción y Análisis de Datos](#farmacodb-automatización-de-extracción-y-análisis-de-datos)
