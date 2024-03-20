@@ -1,6 +1,6 @@
 # FarmacoDB: Automatización de Extracción y Análisis de Datos
 ![](https://img.shields.io/badge/URV-Universitat_Rovira_i_Virgili-red?link=https%3A%2F%2Fwww.urv.cat)
-
+![FarmacoDB](media/FarmacoDB.png)
 # Índice
 - [FarmacoDB: Automatización de Extracción y Análisis de Datos](#farmacodb-automatización-de-extracción-y-análisis-de-datos)
   - [Descripción](#descripción)
@@ -68,8 +68,8 @@ La finaliad principal consiste en ofrecer un pipeline para poder **aplicar a la 
 ## Metodología
 
 ### Bases de Datos (BBDD Farmacocinética + BBDD Descriptores)
-XXX
-Puede descargar directamente la base de datos final FarmacoDB o la base de datos de descriptores moleculares asociados.
+Puede descargar directamente la [base de datos final FarmacoDB](bbdd/FarmacoDB.zip) o la [base de datos de descriptores moleculares](bbdd/BD_DESCRIPTORS.7z) asociados.
+
 #### 1. Extracción de Datos PK de PKPDAI y DrugBank
 Se realizó un análisis exhaustivo de los datos de farmacocinética extrayendo información de las bases de datos *PKPDAI* y *DrugBank*. Se desarrolló una metodología eficiente en Python para extraer y almacenar los datos en una base de datos *SQLite* local.
 
@@ -205,11 +205,12 @@ Si prefiere explorar todos los modelos probados y configuraciones puede usar el 
 Recuerde que podrá adaptarlo a sus necesidades.
 
 ## Estructura del Repositorio
-xxx
 El repositorio está organizado de la siguiente manera:
 - `bbdd_pipeline/`: Contiene todos los *scripts* mencionados en los pasos anteriores.
 
 - `model_pipeline/`: Contiene los scripts utilizados para la creación del modelo predictivo, limpieza de datos, análisis etc.
+  
+- `bbdd/`: Contiene la base de datos final FarmacoDB y la base de datos de descriptores moleculares asociados.
 
 ## Instrucciones de Uso
 Puede clonar este repositorio y utilizar las bases de datos creadas y los scripts proporcionados para crear su propia base de datos, o bien desarrollar sus propios modelos predictivos según sus necesidades siguiendo los *pipelines* propuestos.
@@ -250,5 +251,5 @@ Para obtener más detalles sobre la metodología utilizada y las referencias adi
 
 ---
 
-¡Gracias por contribuir al avance de la farmacocinética con este proyecto! Si tienes alguna pregunta o necesitas ayuda, no dudes en contactarme.
+¡Gracias por contribuir al avance de la farmacocinética con este proyecto! Si tiene alguna pregunta o necesita ayuda, no dude en contactarme.
 
