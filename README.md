@@ -37,7 +37,7 @@ Este repositorio proporciona la **metodología y los scripts necesarios para rep
 ------------
 
 
-Para más detalles sobre la investigación, consulte la publicación completa en el [Archivo de la URV](enlace_a_la_publicacion).XXX
+XXX Para más detalles sobre la investigación, consulte la publicación completa en el [Archivo de la URV](enlace_a_la_publicacion).
 
 
 ## Objetivos
@@ -83,6 +83,7 @@ Se realizó un análisis exhaustivo de los datos de farmacocinética extrayendo 
 <br>
 
 `bbdd_pipeline/1_extract/extract.ipynb`
+
 Obtendrá `DRUG_DB.db` necesario para la siguiente etapa (2).
 
 #### 2. Minería de Texto para Extracción de "Especie" y "Enfermedad"
@@ -98,6 +99,7 @@ Se implementó un proceso de minería de texto para extraer la información de "
 <br>
 
 `bbdd_pipeline/2_diseases_species/diseases_species.ipynb`
+
 Obtendrá `DRUG_DB.db` necesario para la siguiente etapa (3).
 
 #### 3. Extracción de Descriptores Moleculares
@@ -113,7 +115,9 @@ Se procedió a la extracción de descriptores moleculares utilizando la calculad
 <br>
 
 `bbdd_pipeline/3_descriptors/descriptors.ipynb`
+
 Obtendrá `DRUG_DB.db` necesario para la siguiente etapa (4).
+
 Obtendrá `BD_DESCRIPTORS.db` necesario para la etapa 8.
 
 #### 4, 5, 6, 7. Limpieza de Datos y Normalización
@@ -129,19 +133,30 @@ Se realizó una normalización y limpieza profunda de los nombres de los paráme
 <br>
 
 `bbdd_pipeline/4_clean_normalization_metrics/clean_normalization_metrics.ipynb`
+
 Obtendrá `DRUG_DB.db` necesario para la siguiente etapa (5).
+
 `bbdd_pipeline/4_clean_normalization_metrics/5_groups/groups.ipynb`
+
 Obtendrá `DRUG_DB_applied.db` necesario para la siguiente etapa (6).
+
 `bbdd_pipeline/4_clean_normalization_metrics/6_standard_units/standard_units.ipynb`
+
 Obtendrá `DRUG_DB_applied.db` necesario para la siguiente etapa (7).
+
 Opcional, para ver la distribución y otra información referente a las unidades: `bbdd_pipeline/4_clean_normalization_metrics/6_standard_units/distribution.ipynb`
+
 `bbdd_pipeline/4_clean_normalization_metrics/7_mean_median_std/mean_median_std.ipynb`
+
 Obtendrá `DRUG_DB_applied.db` necesario para la siguiente etapa (8).
+
 **Esta base de datos será la base de datos completa.**
 
 #### 8. Integración en csv para el modelo
 Se integraron los parámetros descriptivos junto con la base de datos final para preparar los *.csv* necesarios para la creación del modelo predictivo.
+
 `bbdd_pipeline/8_create_csv/create_csv.ipynb`
+
 Obtendrá dentro de la carpeta `csv` todos los *.csv* correspondientes a cada parámetro, necesarios para la creación del modelo.
 
 ### Desarrollo del Modelo Predictivo
@@ -206,6 +221,7 @@ Recuerde que podrá adaptarlo a sus necesidades.
 
 ## Estructura del Repositorio
 El repositorio está organizado de la siguiente manera:
+
 - `bbdd_pipeline/`: Contiene todos los *scripts* mencionados en los pasos anteriores.
 
 - `model_pipeline/`: Contiene los scripts utilizados para la creación del modelo predictivo, limpieza de datos, análisis etc.
@@ -214,6 +230,7 @@ El repositorio está organizado de la siguiente manera:
 
 ## Instrucciones de Uso
 Puede clonar este repositorio y utilizar las bases de datos creadas y los scripts proporcionados para crear su propia base de datos, o bien desarrollar sus propios modelos predictivos según sus necesidades siguiendo los *pipelines* propuestos.
+
 ```bash
 git clone https://github.com/pablosierrafernandez/FarmacoDB.git
 ```
