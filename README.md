@@ -37,7 +37,7 @@ Este repositorio proporciona la **metodología y los scripts necesarios para rep
 ------------
 
 
-XXX Para más detalles sobre la investigación, consulte la publicación completa en el [Archivo de la URV](enlace_a_la_publicacion).
+Para más detalles sobre la investigación, consulte la publicación completa en el [Archivo de la URV](#proximamente).
 
 
 ## Objetivos
@@ -264,7 +264,7 @@ En colaboracion con:
 4. Sung et al., 2022. [https://academic.oup.com/bioinformatics/article/38/20/4837/6687126](https://academic.oup.com/bioinformatics/article/38/20/4837/6687126)
 5. Moriwaki et al., 2018. [https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0258-y](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0258-y)
 
-Para obtener más detalles sobre la metodología utilizada y las referencias adicionales, consulte la publicación completa en el [Archivo de la URV](enlace_a_la_publicacion).XXX
+Para obtener más detalles sobre la metodología utilizada y las referencias adicionales, consulte la publicación completa en el [Archivo de la URV](#proximamente).
 
 ---
 
