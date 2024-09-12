@@ -37,7 +37,7 @@ Este repositorio proporciona la **metodología y los scripts necesarios para rep
 ------------
 
 
-Para más detalles sobre la investigación, consulte la publicación completa en el [Archivo de la URV](#proximamente).
+Para más detalles sobre la investigación, consulte la publicación completa [aquí](https://github.com/pablosierrafernandez/FarmacoDB/blob/03e48add6ada9ed1b955d9adf5a5de4d5bbb74a4/FarmacoDB.pdf).
 
 
 ## Objetivos
